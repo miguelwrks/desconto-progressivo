@@ -1,11 +1,4 @@
-# programa desconto progressivo 
-#valor da compra
-#descontos:
-#    se o valor total da compra for menor do que R$ 200,00, o cliente recebe um desconto de 5%.
-#    Se o valor total da compra for maior ou igual a R$ 200,00 e menor que R$ 300,00, o cliente recebe um desconto de 10%.
-#    Se o valor total da compra for maior ou igual a R$ 300,00, o cliente recebe um desconto de 15%.
-#  
-
+# agr, criar uma variavel para no final, subtrair o valor da compra pelo desconto e exibir o valor final ( mais o desconto) e testar o else no lugar do elif final
 
 print('---> Programa Desconto Progressivo <---\n')
 valorTotal = float(input('Insira o valor da sua compra em R$: '))
